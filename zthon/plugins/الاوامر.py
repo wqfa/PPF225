@@ -480,7 +480,7 @@ async def zed_handler(event):
 
     if query.startswith("الهيروكو") and event.query.user_id == zedub.uid:
         zelzal = f"**• عـزيـزي ** [{zedth2}](tg://user?id={user.id}) \n**• إليـك شـرح إنشـاء حسـاب هيـروكـو↓**"
-        buttons = [[Button.url("اضغــط هنــا", "https://t.me/Tws_Tepthon/59")]]
+        buttons = [[Button.url("اضغــط هنــا", "https://t.me/T9_10")]]
         result = builder.article(title="zedub",text=zelzal,buttons=buttons,link_preview=False)
         await event.answer([result] if result else None)
 @zedub.zed_cmd(pattern="الهيروكو(?: |$)(.*)")
