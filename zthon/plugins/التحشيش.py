@@ -35,9 +35,9 @@ from telethon import events
 
 @zedub.zed_cmd(pattern="رابط الحذف")
 async def _(zed):
-    await edit_or_reply (zed, "𓆰 [𝙎𝙊𝙐𝙍𝘾𝞝 𝗧𝞝𝗣 - 𝘿𝙀𝙇𝙀𝙏𝙀](t.me/TepThon) 🗑♻️𓆪\n**𓍹━─━─━─━─𝗧𝞝𝗣─━─━─━─━𓍻**\n\n **✵│رابـط الحـذف ↬** https://telegram.org/deactivate \n\n\n **✵│بـوت الحـذف  ↬** @LC6BOT ")
+    await edit_or_reply (zed, "𓆰 [𝙎𝙊𝙐𝙍𝘾𝞝 𝗥𝗘𝗗 - 𝘿𝙀𝙇𝙀𝙏𝙀](t.me/RedTheon) 🗑♻️𓆪\n**𓍹━─━─━─━─𝗥𝗘𝗗─━─━─━─━𓍻**\n\n **✵│رابـط الحـذف ↬** https://telegram.org/deactivate \n\n\n **✵│بـوت الحـذف  ↬** @LC6BOT ")
 
-########################  SOURCE ZED ~ BY: ZelZal (@zzzzl1l)  ########################
+########################  SOURCE ZED ~ BY: ZelZal (@C15CS)  ########################
 
 @zedub.zed_cmd(pattern="رفع جلب(?: |$)(.*)")
 async def permalink(mention):
@@ -64,7 +64,7 @@ async def permalink(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 1260465030 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
     await edit_or_reply(
@@ -157,7 +157,7 @@ async def permalink(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 1260465030 or user.id == 1260465030 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
     await edit_or_reply(
@@ -166,10 +166,10 @@ async def permalink(mention):
     )
 
 
-########################  SOURCE ZED ~ BY: ZelZal (@zzzzl1l)  ########################
+########################  SOURCE ZED ~ BY: ZelZal (@C15CS)  ########################
 
 ZelzalTHS_cmd = (
-    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝞝𝗣 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 - اوامـر التحشيش](t.me/TepThon) 𓆪\n\n"
+    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗥𝗘𝗗 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 - اوامـر التحشيش](t.me/T9_10) 𓆪\n\n"
     "**- اضغـط ع الامـر للنسـخ ثـم قـم بالـرد ع الشخـص** \n\n"
     "**⪼** `.اوصف` \n"
     "**⪼** `.هينه` \n"
@@ -507,7 +507,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 1260465030 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth = user.first_name.replace("\u2060", "") if user.first_name else user.username
     zedt = random.choice(zid)
@@ -531,7 +531,7 @@ async def permalink(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth = user.first_name.replace("\u2060", "") if user.first_name else user.username
     zedt = random.choice(zid)
@@ -543,7 +543,7 @@ async def permalink(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth = user.first_name.replace("\u2060", "") if user.first_name else user.username
     zedt = random.choice(zid)
@@ -571,7 +571,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -585,7 +585,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -599,7 +599,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -613,7 +613,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -627,7 +627,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -641,7 +641,7 @@ async def permalink(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     if custom:
         return await edit_or_reply(mention, f"[{custom}](tg://user?id={user.id})")
@@ -657,7 +657,7 @@ async def permalink(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     if custom:
         return await edit_or_reply(mention, f"[{custom}](tg://user?id={user.id})")
@@ -675,7 +675,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -709,7 +709,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -723,7 +723,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -737,7 +737,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -761,7 +761,7 @@ async def zed(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -815,7 +815,7 @@ async def permalink(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك هـذا مطـور . . شما حجيت ماكـدر اوصفـه 🙊💘 ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك هـذا زلـزال الهيبـه . . شما حجيت ماكـدر اوصفـه 🙊💘 ❏╰**")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
     owsf = random.choice(wasf)
@@ -827,7 +827,7 @@ async def permalink(mention):
         return
     if user.id in zel_dev:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 5191376406 or user.id == 5191376406 or user.id == 5191376406:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
     hah = random.choice(heno)
