@@ -23,7 +23,7 @@ def clear_screen():
 
 
 def get_api_id_and_hash():
-    print("Tepthon Session Pyrogram")
+    print("Redthon Session Pyrogram")
     print("\n---------------------------\n")
     try:
         API_ID = int(input("Please enter your API ID: "))
@@ -62,7 +62,7 @@ def telethon_session():
     # logging in
     try:
         with TelegramClient(StringSession(), API_ID, API_HASH) as Tepthon:
-            print("Generating a string session for •Tepthon•")
+            print("Generating a string session for •Redthon•")
             try:
                 Tepthon.send_message(
                     "me",
@@ -90,7 +90,7 @@ def telethon_session():
     except Exception as er:
         print("Unexpected Error Occurred while Creating Session")
         print(er)
-        print("If you think It as a Bug, Report to @zzzzzl1l\n\n")
+        print("If you think It as a Bug, Report to @k06bot\n\n")
 
 
 def pyro_session():
