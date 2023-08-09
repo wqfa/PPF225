@@ -1,14 +1,4 @@
-# @Zed-Thon - ZelZal
-# Copyright (C) 2022 ZedThon . All Rights Reserved
-#< https://t.me/ZedThon >
-# This file is a part of < https://github.com/Zed-Thon/ZelZal/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/Zed-Thon/ZelZal/blob/main/LICENSE/>.
-#كـود الصورة الوقتيه كتـابتي وتعديلـي من زمان ومتعوب عليها 
-#+ كـود زخـرفة الصورة الوقتيه
-#+ دددي لا ابلـع حســابك بـانـد بطـعـم الليمــون 🍋😹🤘
-#زلــزال الهيبــه يـ ولــد - حقــوق لـ التــاريـخ ®
-#هههههههههههههههههههههههههههههههههههههههههههههههههه
+
 
 import asyncio
 import math
@@ -116,7 +106,7 @@ async def autobio_loop():
               namerzfont = gvarstatus("ZI_FN") or "𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵𝟬"
               namefont = namerzfont[normzltext.index(normal)]
               HM = HM.replace(normal, namefont)
-        DEFAULTUSERBIO = gvarstatus("DEFAULT_BIO") or "الحمد الله على كل شئ - @ZedThon"
+        DEFAULTUSERBIO = gvarstatus("DEFAULT_BIO") or "الحمد الله على كل شئ - @T9_10"
         bio = f"{DEFAULTUSERBIO} ⏐ {HM}"
         LOGS.info(bio)
         try:
