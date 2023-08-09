@@ -6,10 +6,10 @@
 # <https://www.github.com/Zed-Thon/ZelZal/blob/main/LICENSE/>.
 
 """
-ZThon - ZelZal
+@DevEviI - @C35CS
 - كتـابـة الاضـافـات
-زلــزال الـهيبــه - @zzzzl1l
-- حقـوق زدثـــون @ZedThon
+ابو شمه - @N8_10
+- حقـوق ريدثيون @RedRheon
 - تخمـط صيـر مطـور كفــوو واذكــر المصــدر
 """
 
@@ -37,9 +37,9 @@ from . import spamwatch
 plugin_category = "العروض"
 LOGS = logging.getLogger(__name__)
 # code by t.me/zzzzl1l
-ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت تيبثـون"
+ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت ريدثيون"
 ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "✦ "
-ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 ─┄─┄─┄─⋆"
+ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ 𝗥𝗘𝗗𝗧𝗛𝗢𝗡 ─┄─┄─┄─⋆"
 zed_dev = (1260465030, 463636842)
 zel_dev = (1260465030, 52581064)
 zelzal = (1260465030, 1264384082)
