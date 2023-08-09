@@ -5,8 +5,8 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/Zed-Thon/ZelZal/blob/main/LICENSE/>.
 """ 
-Logo & Style for ZThon™ t.me/ZedThon
-Write file by Zelzal t.me/zzzzl1l
+Logo & Style for Redthon™ t.me/RedRheon
+Write file by Dex t.me/C15CS
 ها خماط بعدك تخمط مني .. ماتستحي ؟
 متى راح تصير مطور وانت مقضيها خمط تعب وحقوق الناس
 ههههههههههههههههههههههههههههههههههههههههههههههههههههههه
@@ -111,7 +111,7 @@ async def lg1(userevent):
     await bot.send_file(
         userevent.chat_id,
         file_name,
-        caption=f"**- تم صنـع لـوجـو انكـلش .. بنجـاح 🎆☑️\n- حقـوق :** {my_mention} .\n\n**- بواسطـة : @ZedThon**",
+        caption=f"**- تم صنـع لـوجـو انكـلش .. بنجـاح 🎆☑️\n- حقـوق :** {my_mention} .\n\n**- بواسطـة : @RedRheon**",
     )
     await event.delete()
     try:
@@ -186,7 +186,7 @@ async def lg1(userevent):
     await bot.send_file(
         userevent.chat_id,
         file_name,
-        caption=f"**- تم صنـع لـوجـو عـربـي .. بنجـاح 🎆☑️\n- حقـوق :** {my_mention} .\n\n**- بواسطـة : @ZedThon**",
+        caption=f"**- تم صنـع لـوجـو عـربـي .. بنجـاح 🎆☑️\n- حقـوق :** {my_mention} .\n\n**- بواسطـة : @RedRheon**",
     )
     await event.delete()
     try:
