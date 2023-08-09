@@ -31,12 +31,12 @@ async def amireallyalive(event):
     reply_to_id = await reply_id(event)
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    zedevent = await edit_or_reply(event, "**⛥ ⤻ انتـظࢪ جـاࢪي فـحص بـ ـوت TEᑭTᕼOᑎ الخـاص بـِك   ۦ**")
+    zedevent = await edit_or_reply(event, "**⛥ ⤻ انتـظࢪ جـاࢪي فـحص بـ ـوت ᖇEᗪTᕼOᑎ الخـاص بـِك   ۦ**")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or " ⎉┊"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** سُـورس TEᑭTᕼOᑎ يـَعمل بنـَجاح **"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** سُـورس  يـَعمل بنـَجاح **"
     ZED_IMG = gvarstatus("ALIVE_PIC")
     zed_caption = gvarstatus("ALIVE_TEMPLATE") or zed_temp
     caption = zed_caption.format(
@@ -77,7 +77,7 @@ zed_temp = """{ALIVE_TEXT}
 **{Z_EMOJI} َِ🕊 𝖯ِ𝗒َ𝖳𝗁𝗈ً𝖭 𝖵𝖾𝗋𝗌𝗂𝗈َِ𝖭 :** `{pyver}`
 **{Z_EMOJI} َِ🕊 ٰ𝖴𝗉 َ𝖳ْ𝗂𝖬ِ𝖾 :** `{uptime}`
 **{Z_EMOJI} • ＴＨＥ ＵＳＥＲ:** {mention} 🤍 .
-**{Z_EMOJI} 𝚂OᑌᖇᑕE ᑕᕼᗩᑎᑎEᒪ :** [TEᑭTᕼOᑎ](https://t.me/Tepthon)"""
+**{Z_EMOJI} 𝚂OᑌᖇᑕE ᑕᕼᗩᑎᑎEᒪ :** [ᖇEᗪTᕼOᑎ](https://t.me/RedRheon)"""
 
 
 @zedub.zed_cmd(
