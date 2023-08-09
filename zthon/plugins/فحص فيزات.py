@@ -7,8 +7,8 @@
 # الملــف محمــي بحقــوق النشـــر والملـكيـه
 # تخمــط بــدون ذكــر المصــدر ابلــع حســابـك بانـــد
 """ 
-CC Checker & Generator for ZThon™ t.me/ZedThon
-Write file by Zelzal t.me/zzzzl1l
+CC Checker & Generator for Redthon™ t.me/RedRheon
+Write file by Dex t.me/C15CS
 hhh o ya beby
 
 """
