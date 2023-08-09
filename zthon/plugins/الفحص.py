@@ -71,13 +71,13 @@ async def amireallyalive(event):
 
 
 zed_temp = """{ALIVE_TEXT}
-**{Z_EMOJI} َِ🕊 ٍَ𝖣ٰ𝖺َ𝖳𝖺ِ𝖡𝗎َِ𝖲َ𝖾 :** ᖴِᵘ𝖭𝖼𝖳ْ𝗂𝗈ً𝖭𝗂𝖭𝗀 
-**{Z_EMOJI} َِ🕊️ ٰ𝖳َ𝖾ْ𝗅ِ𝖾𝖳َ𝗁𝗈ٍ𝖭 ُ𝖵ِ𝖾𝗋𝗌ْ𝗂𝗈َ𝗇 :** `{telever}`
-**{Z_EMOJI} 🕊 𝖳َ𝖾ْ𝗉𝖳َ𝗁𝗈ٍ𝖭 َ𝖵𝖾𝗋ِ𝗌ْ𝗂𝗈َِ𝖭** `{zdver}`
-**{Z_EMOJI} َِ🕊 𝖯ِ𝗒َ𝖳𝗁𝗈ً𝖭 𝖵𝖾𝗋𝗌𝗂𝗈َِ𝖭 :** `{pyver}`
-**{Z_EMOJI} َِ🕊 ٰ𝖴𝗉 َ𝖳ْ𝗂𝖬ِ𝖾 :** `{uptime}`
-**{Z_EMOJI} • ＴＨＥ ＵＳＥＲ:** {mention} 🤍 .
-**{Z_EMOJI} 𝚂OᑌᖇᑕE ᑕᕼᗩᑎᑎEᒪ :** [TEᑭTᕼOᑎ](https://t.me/Tepthon)"""
+**{Z_EMOJI} ‎⿻┊‌‎‌‎𝙽𝙰𝙼𝙴 𖠄 None 
+**{Z_EMOJI} ‌‎⿻┊‌‎‌‎𝙿𝚈𝚃𝙷𝙾𝙽 𖠄 ** `{telever}` 
+**{Z_EMOJI} ‌‎⿻┊‌‎‌‎‌‎𝚅𝙴𝚁𝚂𝙸𝙾𝙽 𖠄 ** `{zdver}`
+**{Z_EMOJI} ‌‎⿻┊‌‎‌‎‌‎𝚁𝙴𝙳𝚃𝙷𝙾𝙽 𖠄 ** `{pyver}`
+**{Z_EMOJI} ‌‎⿻┊‌‎‌‎‌‎𝙿𝙸𝙽𝙶 𖠄 ** `{uptime}`
+**{Z_EMOJI} ‎⿻┊‌‎‌‎‌‎𝚄𝚂𝙴𝚁 𖠄 ** {mention} 🤍 .
+**{Z_EMOJI} ‌‎⿻┊‌‎‌‎‌‎𝙶𝚁𝙾𝚄𝙿 𖠄 :** [𝚁𝙴𝙳𝚃𝙷𝙾𝙽](https://t.me/RedTheon)"""
 
 
 @zedub.zed_cmd(
@@ -94,7 +94,7 @@ async def amireallyialive(event):
     "A kind of showing bot details by your inline bot"
     reply_to_id = await reply_id(event)
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or " ⎉┊"
-    zed_caption = "** سُـورس TEᑭTᕼOᑎ يـَعمل بنـَجاح **\n"
+    zed_caption = "**父 Sources of RedThon✓ 父**\n"
     zed_caption += f"**{Z_EMOJI} َِ🕊️ ٰ𝖳َ𝖾ْ𝗅ِ𝖾𝖳َ𝗁𝗈ٍ𝖭 ُ𝖵ِ𝖾𝗋𝗌ْ𝗂𝗈َ𝗇 :** `{version.__version__}\n`"
     zed_caption += f"**{Z_EMOJI} 🕊 𝖳َ𝖾ْ𝗉𝖳َ𝗁𝗈ٍ𝖭 َ𝖵𝖾𝗋ِ𝗌ْ𝗂𝗈َِ𝖭 :** `{zedversion}`\n"
     zed_caption += f"**{Z_EMOJI} َِ🕊 𝖯ِ𝗒َ𝖳𝗁𝗈ً𝖭 𝖵𝖾𝗋𝗌𝗂𝗈َِ𝖭 :** `{python_version()}\n`"
