@@ -36,7 +36,7 @@ def get_size(inputbytes, suffix="B"):
 async def psu(event):
     "shows system specification"
     uname = platform.uname()
-    softw = "** 𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝗧𝞝𝗣𝗧𝗛𝗢𝗡 𝑺𝒀𝑺𝑻𝑬𝑴 𝑰𝑵𝑭𝑶 𓆪 **\n"
+    softw = "** 𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝗥𝗘𝗗𝗧𝗛𝗢𝗡 𝑺𝒀𝑺𝑻𝑬𝑴 𝑰𝑵𝑭𝑶 𓆪 **\n"
     softw += f"**⎉╎النظام : ** `{uname.system}`\n"
     softw += f"**⎉╎المرجع  : ** `{uname.release}`\n"
     softw += f"**⎉╎الاصدار  : ** `{uname.version}`\n"
@@ -75,9 +75,9 @@ async def psu(event):
     help_string += f"{str(cpuu)}\n"
     help_string += f"{str(memm)}\n"
     help_string += f"{str(bw)}\n"
-    help_string += "**- إصـدار بايثــون & تيليثــون :**\n"
+    help_string += "**- إصـدار بايثــون & ريدثيون :**\n"
     help_string += f"**⎉╎بايثـون : ** `{sys.version}`\n"
-    help_string += f"**⎉╎تيليثـون : ** `{__version__}`"
+    help_string += f"**⎉╎ريدثيون : ** `{__version__}`"
     await event.edit(help_string)
 
 
