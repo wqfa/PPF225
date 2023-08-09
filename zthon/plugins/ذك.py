@@ -1,9 +1,8 @@
 """ 
-OpenAi & ChatGpt for Tepthon™ t.me/Tepthon
-Write file by MUHAMMAD t.me/PPF22
+OpenAi & ChatGpt for Redthon™ t.me/RedRheon
+Write file by Dex t.me/C15CS
 ها خماط بعدك تخمط مني .. ماتستحي ؟
 متى راح تصير مطور وانت مقضيها خمط تعب وحقوق الناس
-زلزال
 ههههههههههههههههههههههههههههههههههههههههههههههههههههههه
 """
 
@@ -61,7 +60,7 @@ async def zelzal_gpt(event):
                 await event.delete()
                 return await borg.send_message(event.chat_id, aa)
             await zed.delete()
-            await borg.send_message(event.chat_id, f"**السؤال : {zelzal}\n\n{malath}**\n\n───────────────────\n𝗧𝗲𝗽𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁**** 𝗧**ᴏᴏʟꜱ**\n\t\t\t\t\t\t\t\t@Tepthon • ᴼᵖᵉⁿᴬᴵ")
+            await borg.send_message(event.chat_id, f"**السؤال : {zelzal}\n\n{malath}**\n\n───────────────────\n𝗥𝗘𝗗𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁**** 𝗧**ᴏᴏʟꜱ**\n\t\t\t\t\t\t\t\t@RedRheon • ᴼᵖᵉⁿᴬᴵ")
         except YouBlockedUserError: #code by t.me/zzzzl1l
             await zedub(unblock("nlyrbot"))
             await conv.send_message("/start")
@@ -85,7 +84,7 @@ async def zelzal_gpt(event):
                 zedthon = await conv.get_response()
                 malath = zedthon.text
             await zed.delete()
-            await borg.send_message(event.chat_id, f"**السؤال : {zelzal}\n\n{malath}**\n\n───────────────────\n𝗧𝗲𝗽𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁**** 𝗧**ᴏᴏʟꜱ**\n\t\t\t\t\t\t\t\t@Tepthon • ᴼᵖᵉⁿᴬᴵ")
+            await borg.send_message(event.chat_id, f"**السؤال : {zelzal}\n\n{malath}**\n\n───────────────────\n𝗥𝗘𝗗𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁**** 𝗧**ᴏᴏʟꜱ**\n\t\t\t\t\t\t\t\t@RedRheon • ᴼᵖᵉⁿᴬᴵ")
 
 
 # تخمــط اهينـــك Fuk-You
@@ -124,7 +123,7 @@ async def zelzal_gpt(event):
                 zedthon = await conv.get_response()
                 malath = zedthon.text
             await zed.delete()
-            await borg.send_message(event.chat_id, f"**السؤال : {zelzal}\n\n{malath}**\n\n───────────────────\n𝗧𝗲𝗽𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁**** 𝗧**ᴏᴏʟꜱ**\n\t\t\t\t\t\t\t\t@Tepthon • ᴼᵖᵉⁿᴬᴵ")
+            await borg.send_message(event.chat_id, f"**السؤال : {zelzal}\n\n{malath}**\n\n───────────────────\n𝗥𝗘𝗗𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁**** 𝗧**ᴏᴏʟꜱ**\n\t\t\t\t\t\t\t\t@RedRheon • ᴼᵖᵉⁿᴬᴵ")
         except YouBlockedUserError: #code by t.me/zzzzl1l
             await zedub(unblock("GPT4Telegrambot"))
             await conv.send_message("/start")
@@ -144,4 +143,4 @@ async def zelzal_gpt(event):
                 await event.delete()
                 return await borg.send_message(event.chat_id, aa)
             await zed.delete()
-            await borg.send_message(event.chat_id, f"**السؤال : {zelzal}\n\n{malath}**\n\n───────────────────\n𝗧𝗲𝗽𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁**** 𝗧**ᴏᴏʟꜱ**\n\t\t\t\t\t\t\t\t@Tepthon • ᴼᵖᵉⁿᴬᴵ")
+            await borg.send_message(event.chat_id, f"**السؤال : {zelzal}\n\n{malath}**\n\n───────────────────\n𝗥𝗘𝗗𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁**** 𝗧**ᴏᴏʟꜱ**\n\t\t\t\t\t\t\t\t@RedRheon • ᴼᵖᵉⁿᴬᴵ")
